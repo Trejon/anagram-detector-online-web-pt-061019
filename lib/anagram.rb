@@ -7,7 +7,7 @@ class Anagram
     @word = word
   end 
   
-  def match 
-    
+  def match(word_phrase)
+    word_phrase.split("") == word_phrase.split("")
   end 
 end 
